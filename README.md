@@ -19,9 +19,15 @@ git clone https://github.com/sarkalay/LayerEdge.git
 
 ```bash
 cd LayerEdge
-```
 
 3. Install dependencies:
 
 ```bash
 npm install
+
+4. Edit configuration:
+   - Edit `address.txt` file in the root directory
+   - Add your wallet addresses (one per line)
+```
+1. Start the bot:
+node index.js
